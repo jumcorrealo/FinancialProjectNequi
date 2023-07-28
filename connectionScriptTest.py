@@ -26,7 +26,7 @@ try:
     # Now establish the database connection using psycopg2
     connection = psycopg2.connect(
         host=db_endpoint,
-        database=db_name,
+        #database=db_name,
         user=db_user,
         password=db_password
     )
