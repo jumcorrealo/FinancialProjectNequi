@@ -2,3 +2,4 @@ yfinance
 pandas
 tqdm
 datetime
+psycopg2-binary
