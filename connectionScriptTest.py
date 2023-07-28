@@ -1,7 +1,7 @@
 import configparser
 import psycopg2
 import sys
-
+import socket
 
 # Read the configuration file
 config = configparser.ConfigParser()
@@ -13,18 +13,27 @@ db_name = config['database']['database_name']
 db_user = config['database']['username']
 db_password = config['database']['password']
 
+# Set the timeout for the connection attempt (in seconds)
+connection_timeout = 10
+
 try:
-    # Set the timeout to 10 seconds for the connection attempt
+    # Create a socket and set a timeout for the connection attempt
+    conn_socket = socket.create_connection((db_endpoint, 5432), timeout=connection_timeout)
+    
+    # If the connection was successful, close the socket
+    conn_socket.close()
+    
+    # Now establish the database connection using psycopg2
     connection = psycopg2.connect(
         host=db_endpoint,
         database=db_name,
         user=db_user,
-        password=db_password,
-        timeout=10  # Set the timeout in seconds
+        password=db_password
     )
     print("Connected successfully!")
-except psycopg2.OperationalError as e:
-    if "timeout expired" in str(e):
+    
+except (socket.timeout, psycopg2.OperationalError) as e:
+    if isinstance(e, socket.timeout):
         print("Error: Connection timed out.")
     else:
         print("Error during connection:", e)
