@@ -2,6 +2,7 @@ import configparser
 import psycopg2
 import sys
 import socket
+import traceback
 
 # Read the configuration file
 config = configparser.ConfigParser()
@@ -31,16 +32,16 @@ try:
     # Now establish the database connection using psycopg2
     connection = psycopg2.connect(
         host=db_endpoint,
-        port = db_port,
-        database = db_name,
+        database=db_name,
         user=db_user,
         password=db_password
     )
-    print("Connected successfully!")
+    print("¡Conexión exitosa a la base de datos!")
     
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
         print("Error: Connection timed out.")
     else:
-        print("Error during connection:", e)
+        print("Error during connection:", {e})
+        print(traceback.format_exc())
     sys.exit(1)  # Terminate the program with a non-zero exit code
