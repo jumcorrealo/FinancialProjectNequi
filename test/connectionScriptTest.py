@@ -9,14 +9,14 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 # loggin config
-logging.basicConfig(filename='log/connection.log', level=logging.ERROR,
+logging.basicConfig(filename='./log/connection.log', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 console = logging.StreamHandler()
 
 # Read the configuration file
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('./config.ini')
 console = logging.StreamHandler()
 # Get the database credentials
 db_endpoint = config['database']['host']
