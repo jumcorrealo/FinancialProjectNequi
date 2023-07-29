@@ -17,7 +17,7 @@ console = logging.StreamHandler()
 # Read the configuration file
 config = configparser.ConfigParser()
 config.read('config.ini')
-
+console = logging.StreamHandler()
 # Get the database credentials
 db_endpoint = config['database']['host']
 db_name = config['database']['database_name']
