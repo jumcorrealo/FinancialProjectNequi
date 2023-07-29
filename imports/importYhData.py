@@ -81,7 +81,7 @@ db_port = config['database']['port']
 delisted_symbols = []
 max_retries_symbols = []
 
-with open('import.log', 'r') as log_file:
+with open('./logimports/import.log', 'r') as log_file:
     log_content = log_file.read()
 
     # Use a regex pattern to find the whole message that contains 'Max retries exceeded with url'
@@ -89,7 +89,7 @@ with open('import.log', 'r') as log_file:
     max_retries_symbols = set(max_retries_matches)
 
     
-with open('import.log', 'r') as log_file: 
+with open('./logimports/import.log', 'r') as log_file: 
     log_lines = log_file.readlines()
     for i in range(len(log_lines)):
             if 'Failed download' in log_lines[i]:
