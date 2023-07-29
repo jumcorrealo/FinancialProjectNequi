@@ -19,7 +19,7 @@ db_port_str = config['database']['port']
 db_port = int(db_port_str.strip().replace('"', ''))
 
 # Set the timeout for the connection attempt (in seconds)
-connection_timeout = 60
+connection_timeout = 10
 
 try:
     # Create a socket and set a timeout for the connection attempt
