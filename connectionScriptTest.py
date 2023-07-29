@@ -12,6 +12,7 @@ db_endpoint = config['database']['host']
 db_name = config['database']['database_name']
 db_user = config['database']['username']
 db_password = config['database']['password']
+db_port = config['database']['port']
 
 # Set the timeout for the connection attempt (in seconds)
 connection_timeout = 10
@@ -26,7 +27,7 @@ try:
     # Now establish the database connection using psycopg2
     connection = psycopg2.connect(
         host=db_endpoint,
-        database=db_name,
+        port = db_port,
         user=db_user,
         password=db_password
     )
