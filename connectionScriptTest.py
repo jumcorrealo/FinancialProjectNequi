@@ -19,7 +19,7 @@ connection_timeout = 10
 
 try:
     # Create a socket and set a timeout for the connection attempt
-    conn_socket = socket.create_connection((db_endpoint, 5432), timeout=connection_timeout)
+    conn_socket = socket.create_connection(('172.31.96.93', 5432), timeout=connection_timeout)
     
     # If the connection was successful, close the socket
     conn_socket.close()
