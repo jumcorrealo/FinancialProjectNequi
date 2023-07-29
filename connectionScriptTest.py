@@ -12,7 +12,11 @@ db_endpoint = config['database']['host']
 db_name = config['database']['database_name']
 db_user = config['database']['username']
 db_password = config['database']['password']
-db_port = int(config['database']['port'])
+# Obtener el valor del puerto del archivo de configuración
+db_port_str = config['database']['port']
+
+# Eliminar comillas dobles y espacios en blanco alrededor del valor del puerto
+db_port = int(db_port_str.strip().replace('"', ''))
 
 # Set the timeout for the connection attempt (in seconds)
 connection_timeout = 10
