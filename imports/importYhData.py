@@ -7,7 +7,7 @@ import logging
 import csv
 import pandas as pd
 import yfinance as yf
-import tqdm
+from tqdm import tqdm
 import re
 import datetime
 import random
