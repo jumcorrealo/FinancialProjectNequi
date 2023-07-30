@@ -75,6 +75,28 @@ db_password = config['database']['password']
 db_port = config['database']['port']
 
 
+# Get of tickers uploaded
+try:
+    connection = psycopg2.connect(
+        host=db_endpoint,
+        database=db_name,
+        user=db_user,
+        password=db_password
+    )
+
+    with connection.cursor() as cursor:
+        cursor.execute("SELECT DISTINCT \"Symbol\" FROM tbTradingHistoric;")
+        existing_symbols = {row[0] for row in cursor.fetchall()}
+
+except psycopg2.OperationalError as e:
+    error_message = f"Error connecting to the database: {e}"
+    logging.error(traceback.format_exc())
+    print(error_message)
+    sys.exit(1)
+
+finally:
+    connection.close()
+
 
 # Traer del archivo logg los delisted symbols
 
@@ -102,13 +124,15 @@ delisted_symbols = [symbol for symbol in delisted_symbols if symbol not in max_r
 # Leer el archivo CSV y obtener los tickers originales sin los delisted_symbols
 original_tickers_list = []
 
-with open('../resources/bats_symbols.csv', newline='') as csvfile:
+            
+with open('../resources/tickers.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     next(reader)  # Ignorar la primera fila de encabezados
     for row in reader:
-        if row[0] not in delisted_symbols:
-            original_tickers_list.append(row[0])
-            
+        ticker = row[0]
+        if ticker not in delisted_symbols and ticker not in existing_symbols:
+            original_tickers_list.append(ticker)
+
 
 # Obtener las fechas de inicio y fin (desde el primero de enero hasta la fecha actual)
 start_date = '2023-01-01'
