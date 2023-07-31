@@ -37,6 +37,34 @@ try:
         password=db_password
     )
     print("¡Conexión exitosa a la base de datos!")
+    # Create a table if it doesn't exist
+    create_table_query = '''
+    CREATE TABLE tbtickers (
+        "Symbol" VARCHAR(200),
+        "Name" VARCHAR(200),
+        "Country" VARCHAR(200),
+        "IPO_Year" INT,
+        "Volome" BIGINT,
+        "Sector" VARCHAR(200),
+        "Industry" VARCHAR(200),
+        "Symbol" VARCHAR(200),
+        PRIMARY KEY ("Symbol", "Country","Industry")
+    );
+    '''
+
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(create_table_query)
+        connection.commit()
+        print("¡Tabla creada exitosamente!")
+
+    except psycopg2.Error as e:
+        error_message = f"Error creating table: {e}"
+        logging.error(traceback.format_exc())
+        sys.exit(1)  # Terminar el programa con un código de salida no cero
+
+    finally:
+        connection.close()
 
 except (psycopg2.OperationalError) as e:
     if isinstance(e):
@@ -48,31 +76,3 @@ except (psycopg2.OperationalError) as e:
     logging.error(error_message)
     sys.exit(1)  # Terminate the program with a non-zero exit code
 
-# Create a table if it doesn't exist
-create_table_query = '''
-   CREATE TABLE tbtickers (
-    "Symbol" VARCHAR(200),
-    "Name" VARCHAR(200),
-    "Country" VARCHAR(200),
-    "IPO_Year" INT,
-    "Volome" BIGINT,
-    "Sector" VARCHAR(200),
-    "Industry" VARCHAR(200),
-    "Symbol" VARCHAR(200),
-    PRIMARY KEY ("Symbol", "Country","Industry")
-);
-'''
-
-try:
-    with connection.cursor() as cursor:
-        cursor.execute(create_table_query)
-    connection.commit()
-    print("¡Tabla creada exitosamente!")
-
-except psycopg2.Error as e:
-    error_message = f"Error creating table: {e}"
-    logging.error(traceback.format_exc())
-    sys.exit(1)  # Terminar el programa con un código de salida no cero
-
-finally:
-    connection.close()
