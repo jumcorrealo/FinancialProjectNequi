@@ -48,8 +48,7 @@ try:
         "Volome" BIGINT,
         "Sector" VARCHAR(200),
         "Industry" VARCHAR(200),
-        "Symbol" VARCHAR(200),
-        PRIMARY KEY ("Symbol", "Country","Industry")
+        PRIMARY KEY ("Symbol","Country","Industry")
     );
     '''
     print ("endquery")
