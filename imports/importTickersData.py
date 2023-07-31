@@ -52,11 +52,16 @@ try:
             industry = data[10]
 
             # Crear la sentencia SQL para insertar los datos en la tabla
-            insert_query = f'''
-            INSERT INTO tbtickers ("Symbol", "Name", "Country", "IPO_Year", "Volome", "Sector", "Industry")
-            VALUES ('{symbol}', '{name}', '{country}', {ipo_year}, {volume}, '{sector}', '{industry}');
-            '''
-
+            if ipo_year is None:
+                insert_query = f'''
+                INSERT INTO tbtickers ("Symbol", "Name", "Country", "IPO_Year", "Volome", "Sector", "Industry")
+                VALUES ('{symbol}', '{name}', '{country}', NULL, {volume}, '{sector}', '{industry}');
+                '''
+            else:
+                insert_query = f'''
+                INSERT INTO tbtickers ("Symbol", "Name", "Country", "IPO_Year", "Volome", "Sector", "Industry")
+                VALUES ('{symbol}', '{name}', '{country}', {ipo_year}, {volume}, '{sector}', '{industry}');
+                '''
             # Ejecutar la sentencia de inserción
             cursor.execute(insert_query)
 
