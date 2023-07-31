@@ -44,7 +44,7 @@ try:
         for line in lines[1:]:
             data = line.strip().split(',')
             symbol = data[0]
-            name = data[1]
+            name = data[1].replace("'", "''")
             country = data[6]
             ipo_year = int(data[7]) if data[7].isdigit() else None
             volume = int(data[8])
