@@ -8,7 +8,7 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 # loggin config
-logging.basicConfig(filename='./logScripts/scripts.log', level=logging.ERROR,
+logging.basicConfig(filename='./logimports/import.log', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 console = logging.StreamHandler()
