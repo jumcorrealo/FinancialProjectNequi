@@ -1,0 +1,1489 @@
+
+2023-07-30 14:30:22,705 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:22,705 - ERROR - ['AAIC^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:22,829 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:22,829 - ERROR - ['AAIC^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:23,485 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:23,485 - ERROR - ['AAM^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:23,602 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:23,602 - ERROR - ['AAM^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:30,836 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:30,836 - ERROR - ['ABR^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:30,952 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:30,952 - ERROR - ['ABR^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:31,075 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:31,076 - ERROR - ['ABR^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:43,718 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:43,718 - ERROR - ['ACP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:44,121 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:44,121 - ERROR - ['ACR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:44,239 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:44,239 - ERROR - ['ACR^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:30:48,754 - ERROR - 
+1 Failed download:
+2023-07-30 14:30:48,755 - ERROR - ['ADC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:01,903 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:01,903 - ERROR - ['AEL^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:02,040 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:02,040 - ERROR - ['AEL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:16,823 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:16,824 - ERROR - ['AGM^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:16,944 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:16,944 - ERROR - ['AGM^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:17,063 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:17,063 - ERROR - ['AGM^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:17,182 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:17,182 - ERROR - ['AGM^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:17,300 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:17,301 - ERROR - ['AGM^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:22,833 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:22,833 - ERROR - ['AHH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:23,216 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:23,216 - ERROR - ['AHL^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:23,338 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:23,338 - ERROR - ['AHL^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:23,455 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:23,455 - ERROR - ['AHL^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:23,868 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:23,868 - ERROR - ['AHT^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:23,988 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:23,988 - ERROR - ['AHT^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:24,107 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:24,107 - ERROR - ['AHT^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:24,226 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:24,226 - ERROR - ['AHT^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:24,379 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:24,379 - ERROR - ['AHT^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:25,998 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:25,998 - ERROR - ['AIG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:34,765 - ERROR - Failed to get ticker 'AKO/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:31:34,765 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:34,765 - ERROR - ['AKO/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:34,893 - ERROR - Failed to get ticker 'AKO/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:31:34,894 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:34,894 - ERROR - ['AKO/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:36,939 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:36,939 - ERROR - ['AL^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:44,165 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:44,165 - ERROR - ['ALL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:44,285 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:44,285 - ERROR - ['ALL^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:44,404 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:44,404 - ERROR - ['ALL^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:44,522 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:44,522 - ERROR - ['ALL^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:50,321 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:50,321 - ERROR - ['ALTG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:59,758 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:59,759 - ERROR - ['AMH^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:31:59,880 - ERROR - 
+1 Failed download:
+2023-07-30 14:31:59,880 - ERROR - ['AMH^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:32:40,535 - ERROR - 
+1 Failed download:
+2023-07-30 14:32:40,535 - ERROR - ['ARGO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:32:46,304 - ERROR - 
+1 Failed download:
+2023-07-30 14:32:46,304 - ERROR - ['ARR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:32:51,329 - ERROR - 
+1 Failed download:
+2023-07-30 14:32:51,329 - ERROR - ['ASB^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:32:51,451 - ERROR - 
+1 Failed download:
+2023-07-30 14:32:51,452 - ERROR - ['ASB^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:03,577 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:03,577 - ERROR - ['ATCO^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:03,695 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:03,696 - ERROR - ['ATCO^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:03,818 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:03,818 - ERROR - ['ATCO^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:05,829 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:05,830 - ERROR - ['ATH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:05,946 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:05,947 - ERROR - ['ATH^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:06,062 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:06,062 - ERROR - ['ATH^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:06,189 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:06,189 - ERROR - ['ATH^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:06,310 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:06,310 - ERROR - ['ATH^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:17,602 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:17,602 - ERROR - ['AUB^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:19,186 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:19,186 - ERROR - ['AULT^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:36,446 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:36,446 - ERROR - ['AXS^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:42,990 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:42,990 - ERROR - ['BAC^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,114 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,114 - ERROR - ['BAC^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,234 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,234 - ERROR - ['BAC^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,350 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,350 - ERROR - ['BAC^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,471 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,471 - ERROR - ['BAC^M']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,592 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,592 - ERROR - ['BAC^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,708 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,708 - ERROR - ['BAC^O']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,826 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,826 - ERROR - ['BAC^P']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:43,952 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:43,953 - ERROR - ['BAC^Q']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:44,068 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:44,068 - ERROR - ['BAC^S']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:57,098 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:57,098 - ERROR - ['BC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:57,220 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:57,220 - ERROR - ['BC^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:33:57,386 - ERROR - 
+1 Failed download:
+2023-07-30 14:33:57,386 - ERROR - ['BC^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:04,840 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:04,840 - ERROR - ['BCV^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:12,041 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:12,041 - ERROR - ['BEP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:13,493 - ERROR - Failed to get ticker 'BF/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:34:13,494 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:13,494 - ERROR - ['BF/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:13,622 - ERROR - Failed to get ticker 'BF/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:34:13,623 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:13,623 - ERROR - ['BF/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:17,643 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:17,643 - ERROR - ['BFS^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:17,763 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:17,763 - ERROR - ['BFS^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:28,188 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:28,189 - ERROR - ['BHR^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:28,319 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:28,319 - ERROR - ['BHR^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:32,247 - ERROR - Failed to get ticker 'BIO/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:34:32,248 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:32,248 - ERROR - ['BIO/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:34,468 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:34,468 - ERROR - ['BIP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:34:34,588 - ERROR - 
+1 Failed download:
+2023-07-30 14:34:34,588 - ERROR - ['BIP^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:27,447 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:27,447 - ERROR - ['BML^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:27,568 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:27,568 - ERROR - ['BML^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:27,688 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:27,688 - ERROR - ['BML^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:27,804 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:27,805 - ERROR - ['BML^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:37,358 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:37,359 - ERROR - ['BOH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:49,079 - ERROR - Failed to get ticker 'BRK/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:36:49,080 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:49,080 - ERROR - ['BRK/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:36:49,210 - ERROR - Failed to get ticker 'BRK/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:36:49,211 - ERROR - 
+1 Failed download:
+2023-07-30 14:36:49,211 - ERROR - ['BRK/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:12,066 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:12,066 - ERROR - ['BW^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:23,815 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:23,815 - ERROR - ['C^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:23,936 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:23,936 - ERROR - ['C^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:24,064 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:24,064 - ERROR - ['C^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:26,572 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:26,572 - ERROR - ['CADE^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:56,034 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:56,034 - ERROR - ['CDR^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:37:56,153 - ERROR - 
+1 Failed download:
+2023-07-30 14:37:56,153 - ERROR - ['CDR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:04,347 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:04,347 - ERROR - ['CEQP^']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:10,033 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:10,034 - ERROR - ['CFG^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:10,157 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:10,157 - ERROR - ['CFG^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:11,444 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:11,444 - ERROR - ['CFR^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:21,630 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:21,630 - ERROR - ['CHMI^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:21,750 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:21,750 - ERROR - ['CHMI^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:31,176 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:31,178 - ERROR - ['CIM^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:31,293 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:31,293 - ERROR - ['CIM^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:31,409 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:31,409 - ERROR - ['CIM^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:31,536 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:31,536 - ERROR - ['CIM^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:33,050 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:33,050 - ERROR - ['CIO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:40,106 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:40,106 - ERROR - ['CLDT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:48,874 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:48,874 - ERROR - ['CLVT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:57,907 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:57,909 - ERROR - ['CMRE^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:58,027 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:58,027 - ERROR - ['CMRE^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:58,146 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:58,146 - ERROR - ['CMRE^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:58,271 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:58,271 - ERROR - ['CMRE^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:59,063 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:59,063 - ERROR - ['CMS^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:38:59,181 - ERROR - 
+1 Failed download:
+2023-07-30 14:38:59,181 - ERROR - ['CMS^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:06,478 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:06,478 - ERROR - ['CNO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:12,603 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:12,603 - ERROR - ['CODI^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:12,722 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:12,722 - ERROR - ['CODI^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:12,847 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:12,847 - ERROR - ['CODI^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:14,352 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:14,352 - ERROR - ['COF^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:14,507 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:14,507 - ERROR - ['COF^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:14,626 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:14,626 - ERROR - ['COF^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:14,746 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:14,746 - ERROR - ['COF^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:14,867 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:14,868 - ERROR - ['COF^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:22,436 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:22,437 - ERROR - ['CORR^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:34,994 - ERROR - Failed to get ticker 'CRD/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:39:34,995 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:34,995 - ERROR - ['CRD/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:35,114 - ERROR - Failed to get ticker 'CRD/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:39:35,115 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:35,115 - ERROR - ['CRD/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:47,382 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:47,383 - ERROR - ['CSLMR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:39:49,415 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:49,415 - ERROR - ['CSR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:53,472 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:53,472 - ERROR - ['CTA^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:53,592 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:53,592 - ERROR - ['CTA^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:39:58,428 - ERROR - 
+1 Failed download:
+2023-07-30 14:39:58,428 - ERROR - ['CTO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:03,033 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:03,033 - ERROR - ['CUBI^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:03,150 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:03,152 - ERROR - ['CUBI^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:31,659 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:31,659 - ERROR - ['DBRG^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:31,779 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:31,779 - ERROR - ['DBRG^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:31,899 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:31,899 - ERROR - ['DBRG^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:35,621 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:35,622 - ERROR - ['DCP^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:40:53,225 - ERROR - 
+1 Failed download:
+2023-07-30 14:40:53,225 - ERROR - ['DISTR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:42:28,069 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:28,069 - ERROR - ['DLNG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:28,195 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:28,195 - ERROR - ['DLNG^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:29,123 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:29,123 - ERROR - ['DLR^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:29,240 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:29,240 - ERROR - ['DLR^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:29,358 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:29,358 - ERROR - ['DLR^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:31,812 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:31,812 - ERROR - ['DMAQR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:42:44,266 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:44,266 - ERROR - ['DRH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:50,898 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:50,898 - ERROR - ['DSX^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:42:56,241 - ERROR - 
+1 Failed download:
+2023-07-30 14:42:56,242 - ERROR - ['DUK^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:00,664 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:00,665 - ERROR - ['DX^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:05,868 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:05,868 - ERROR - ['EAI']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2023-01-01 -> 2023-07-30)')
+2023-07-30 14:43:11,421 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:11,421 - ERROR - ['ECC^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:12,982 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:12,982 - ERROR - ['ECF^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:20,540 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:20,540 - ERROR - ['EFC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:20,657 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:20,657 - ERROR - ['EFC^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:20,783 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:20,784 - ERROR - ['EFC^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:21,271 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:21,271 - ERROR - ['EFHTR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:43:43,396 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:43,396 - ERROR - ['EMP']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2023-01-01 -> 2023-07-30)')
+2023-07-30 14:43:45,443 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:45,443 - ERROR - ['ENERR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:43:55,418 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:55,418 - ERROR - ['EP^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:57,936 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:57,937 - ERROR - ['EPR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:58,057 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:58,057 - ERROR - ['EPR^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:43:58,174 - ERROR - 
+1 Failed download:
+2023-07-30 14:43:58,174 - ERROR - ['EPR^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:00,030 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:00,030 - ERROR - ['EQC^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:00,422 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:00,422 - ERROR - ['EQH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:00,545 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:00,545 - ERROR - ['EQH^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:09,699 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:09,699 - ERROR - ['ESHAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:44:14,190 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:14,190 - ERROR - ['ET^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:14,309 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:14,309 - ERROR - ['ET^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:14,429 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:14,429 - ERROR - ['ET^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:15,710 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:15,710 - ERROR - ['ETI^']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:38,313 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:38,314 - ERROR - ['F^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:38,441 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:38,441 - ERROR - ['F^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:38,579 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:38,579 - ERROR - ['F^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:47,176 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:47,177 - ERROR - ['FBRT^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:44:58,696 - ERROR - 
+1 Failed download:
+2023-07-30 14:44:58,696 - ERROR - ['FEXDR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:45:07,390 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:07,391 - ERROR - ['FHN^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:07,507 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:07,508 - ERROR - ['FHN^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:07,627 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:07,627 - ERROR - ['FHN^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:07,745 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:07,745 - ERROR - ['FHN^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:07,894 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:07,895 - ERROR - ['FHN^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:16,955 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:16,955 - ERROR - ['FLFVR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:45:26,079 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:26,079 - ERROR - ['FNB^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:45:46,389 - ERROR - 
+1 Failed download:
+2023-07-30 14:45:46,389 - ERROR - ['FRT^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:04,928 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:04,928 - ERROR - ['FXCOR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:07,050 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:07,051 - ERROR - ['GAB^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:07,169 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:07,169 - ERROR - ['GAB^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:07,287 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:07,287 - ERROR - ['GAB^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:09,704 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:09,704 - ERROR - ['GAM^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:14,536 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:14,536 - ERROR - ['GBBKR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:21,830 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:21,830 - ERROR - ['GDL^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:23,736 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:23,736 - ERROR - ['GDSTR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:24,713 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:24,714 - ERROR - ['GDV^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:24,836 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:24,836 - ERROR - ['GDV^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:34,282 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:34,282 - ERROR - ['GFGDR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:37,858 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:37,858 - ERROR - ['GGN^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:38,817 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:38,817 - ERROR - ['GGT^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:38,939 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:38,940 - ERROR - ['GGT^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:48,516 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:48,516 - ERROR - ['GL^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:50,956 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:50,956 - ERROR - ['GLLIR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:52,493 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:52,493 - ERROR - ['GLOG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:52,611 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:52,611 - ERROR - ['GLOP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:52,743 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:52,743 - ERROR - ['GLOP^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:52,860 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:52,860 - ERROR - ['GLOP^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:53,294 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:53,294 - ERROR - ['GLP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:53,418 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:53,418 - ERROR - ['GLP^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:46:55,283 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:55,283 - ERROR - ['GLSTR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:46:56,627 - ERROR - 
+1 Failed download:
+2023-07-30 14:46:56,627 - ERROR - ['GLU^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:33,606 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:33,606 - ERROR - ['GMRE^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:35,623 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:35,623 - ERROR - ['GNL^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:35,740 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:35,740 - ERROR - ['GNL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:37,689 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:37,690 - ERROR - ['GNT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:39,805 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:39,806 - ERROR - ['GODNR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:48:48,098 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:48,098 - ERROR - ['GPMT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:50,938 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:50,939 - ERROR - ['GRBK^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:58,320 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:58,321 - ERROR - ['GS^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:58,438 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:58,438 - ERROR - ['GS^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:58,558 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:58,558 - ERROR - ['GS^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:58,677 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:58,677 - ERROR - ['GS^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:48:58,794 - ERROR - 
+1 Failed download:
+2023-07-30 14:48:58,794 - ERROR - ['GS^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:01,748 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:01,749 - ERROR - ['GSL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:06,013 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:06,013 - ERROR - ['GTLS^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:07,983 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:07,984 - ERROR - ['GUT^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:26,235 - ERROR - Failed to get ticker 'HEI/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:49:26,236 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:26,236 - ERROR - ['HEI/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:29,155 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:29,155 - ERROR - ['HFRO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:34,256 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:34,256 - ERROR - ['HIG^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:38,590 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:38,590 - ERROR - ['HL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:49:42,815 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:42,816 - ERROR - ['HMACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:49:55,665 - ERROR - 
+1 Failed download:
+2023-07-30 14:49:55,665 - ERROR - ['HPP^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:05,745 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:05,745 - ERROR - ['HT^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:05,863 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:05,864 - ERROR - ['HT^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:05,981 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:05,981 - ERROR - ['HT^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:17,436 - ERROR - Failed to get ticker 'HVT/A' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 14:50:17,437 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:17,437 - ERROR - ['HVT/A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:19,421 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:19,422 - ERROR - ['HWM^']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:33,255 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:33,255 - ERROR - ['ICR^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:43,753 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:43,753 - ERROR - ['IGTAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:50:48,453 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:48,453 - ERROR - ['IIPR^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:50:50,984 - ERROR - 
+1 Failed download:
+2023-07-30 14:50:50,984 - ERROR - ['IMAQR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:51:06,076 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:06,076 - ERROR - ['INN^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:51:06,197 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:06,197 - ERROR - ['INN^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:51:38,759 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:38,759 - ERROR - ['IVR^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:51:38,877 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:38,877 - ERROR - ['IVR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:51:51,194 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:51,195 - ERROR - ['JGGCR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:51:59,954 - ERROR - 
+1 Failed download:
+2023-07-30 14:51:59,954 - ERROR - ['JPM^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:00,076 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:00,076 - ERROR - ['JPM^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:00,196 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:00,196 - ERROR - ['JPM^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:00,315 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:00,315 - ERROR - ['JPM^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:00,436 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:00,436 - ERROR - ['JPM^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:00,556 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:00,556 - ERROR - ['JPM^M']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:06,830 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:06,830 - ERROR - ['JXN^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:17,092 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:17,092 - ERROR - ['KEY^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:17,210 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:17,210 - ERROR - ['KEY^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:17,329 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:17,329 - ERROR - ['KEY^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:17,449 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:17,449 - ERROR - ['KEY^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:20,745 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:20,745 - ERROR - ['KIM^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:20,869 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:20,870 - ERROR - ['KIM^M']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:23,128 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:23,129 - ERROR - ['KKR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:52:35,484 - ERROR - 
+1 Failed download:
+2023-07-30 14:52:35,484 - ERROR - ['KREF^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:54:52,028 - ERROR - 
+1 Failed download:
+2023-07-30 14:54:52,028 - ERROR - ['LFT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:55:10,142 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:10,142 - ERROR - ['LNC^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:55:35,313 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:35,314 - ERROR - ['LXP^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:55:40,057 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:40,057 - ERROR - ['MAA^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:55:54,109 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:54,109 - ERROR - ['MBTCR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:55:56,094 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:56,094 - ERROR - ['MCACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:55:56,588 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:56,588 - ERROR - ['MCAFR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:55:57,084 - ERROR - 
+1 Failed download:
+2023-07-30 14:55:57,084 - ERROR - ['MCAGR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:56:08,189 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:08,189 - ERROR - ['MDV^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:12,852 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:12,852 - ERROR - ['MER^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:14,141 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:14,142 - ERROR - ['MET^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:14,258 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:14,258 - ERROR - ['MET^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:14,378 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:14,378 - ERROR - ['MET^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:16,604 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:16,604 - ERROR - ['MFA^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:16,723 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:16,723 - ERROR - ['MFA^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:34,638 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:34,638 - ERROR - ['MITT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:34,756 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:34,757 - ERROR - ['MITT^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:56:34,876 - ERROR - 
+1 Failed download:
+2023-07-30 14:56:34,876 - ERROR - ['MITT^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:10,787 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:10,787 - ERROR - ['MS^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:10,902 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:10,902 - ERROR - ['MS^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,025 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,025 - ERROR - ['MS^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,148 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,148 - ERROR - ['MS^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,268 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,268 - ERROR - ['MS^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,386 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,386 - ERROR - ['MS^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,503 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,503 - ERROR - ['MS^O']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:11,623 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:11,623 - ERROR - ['MS^P']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:19,518 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:19,518 - ERROR - ['MTB^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:54,303 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:54,303 - ERROR - ['NCV^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:54,742 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:54,742 - ERROR - ['NCZ^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:58,042 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:58,042 - ERROR - ['NEE^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:58,165 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:58,165 - ERROR - ['NEE^Q']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:57:58,283 - ERROR - 
+1 Failed download:
+2023-07-30 14:57:58,283 - ERROR - ['NEE^R']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:09,239 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:09,239 - ERROR - ['NGL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:09,360 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:09,361 - ERROR - ['NGL^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:12,852 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:12,852 - ERROR - ['NI^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:20,125 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:20,126 - ERROR - ['NLY^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:20,242 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:20,242 - ERROR - ['NLY^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:20,362 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:20,362 - ERROR - ['NLY^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:20,758 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:20,758 - ERROR - ['NM^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:20,878 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:20,878 - ERROR - ['NM^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:22,663 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:22,664 - ERROR - ['NMK^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:22,781 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:22,781 - ERROR - ['NMK^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:33,038 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:33,038 - ERROR - ['NOVVR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:58:38,221 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:38,221 - ERROR - ['NREF^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:42,947 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:42,947 - ERROR - ['NS^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:43,068 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:43,068 - ERROR - ['NS^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:43,185 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:43,185 - ERROR - ['NS^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:43,576 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:43,576 - ERROR - ['NSA^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:58:57,342 - ERROR - 
+1 Failed download:
+2023-07-30 14:58:57,342 - ERROR - ['NVACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 14:59:09,284 - ERROR - 
+1 Failed download:
+2023-07-30 14:59:09,285 - ERROR - ['NXDT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:59:15,286 - ERROR - 
+1 Failed download:
+2023-07-30 14:59:15,286 - ERROR - ['NYCB^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:59:15,403 - ERROR - 
+1 Failed download:
+2023-07-30 14:59:15,403 - ERROR - ['NYCB^U']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:59:18,490 - ERROR - 
+1 Failed download:
+2023-07-30 14:59:18,490 - ERROR - ['OAK^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 14:59:18,610 - ERROR - 
+1 Failed download:
+2023-07-30 14:59:18,610 - ERROR - ['OAK^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:01:25,330 - ERROR - 
+1 Failed download:
+2023-07-30 15:01:25,331 - ERROR - ['ONFOW']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:01:31,445 - ERROR - 
+1 Failed download:
+2023-07-30 15:01:31,445 - ERROR - ['OPP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:01:31,569 - ERROR - 
+1 Failed download:
+2023-07-30 15:01:31,569 - ERROR - ['OPP^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:06,861 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:06,861 - ERROR - ['PBI^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,211 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,211 - ERROR - ['PCG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,331 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,332 - ERROR - ['PCG^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,486 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,486 - ERROR - ['PCG^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,605 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,605 - ERROR - ['PCG^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,726 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,726 - ERROR - ['PCG^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,844 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,844 - ERROR - ['PCG^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:10,961 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:10,961 - ERROR - ['PCG^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:19,817 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:19,817 - ERROR - ['PEB^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:19,972 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:19,972 - ERROR - ['PEB^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:20,090 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:20,090 - ERROR - ['PEB^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:20,205 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:20,205 - ERROR - ['PEB^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:02:56,531 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:56,532 - ERROR - ['PLTNR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:02:59,253 - ERROR - 
+1 Failed download:
+2023-07-30 15:02:59,253 - ERROR - ['PLYM^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:02,288 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:02,288 - ERROR - ['PMT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:02,405 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:02,405 - ERROR - ['PMT^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:02,524 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:02,525 - ERROR - ['PMT^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:03,832 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:03,832 - ERROR - ['PNACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:03:13,451 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:13,451 - ERROR - ['PPHPR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:03:18,347 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:18,347 - ERROR - ['PRE^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:20,782 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:20,783 - ERROR - ['PRIF^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:20,909 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:20,909 - ERROR - ['PRIF^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:21,027 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:21,027 - ERROR - ['PRIF^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:21,154 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:21,154 - ERROR - ['PRIF^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:21,275 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:21,275 - ERROR - ['PRIF^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:21,397 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:21,397 - ERROR - ['PRIF^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:21,518 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:21,518 - ERROR - ['PRIF^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:31,863 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:31,863 - ERROR - ['PSA^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:31,982 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:31,982 - ERROR - ['PSA^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,100 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,101 - ERROR - ['PSA^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,217 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,217 - ERROR - ['PSA^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,343 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,343 - ERROR - ['PSA^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,462 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,463 - ERROR - ['PSA^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,578 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,579 - ERROR - ['PSA^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,697 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,697 - ERROR - ['PSA^M']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,817 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,817 - ERROR - ['PSA^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:32,938 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:32,938 - ERROR - ['PSA^O']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:33,058 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:33,058 - ERROR - ['PSA^P']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:33,180 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:33,180 - ERROR - ['PSA^Q']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:33,293 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:33,294 - ERROR - ['PSA^R']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:33,411 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:33,411 - ERROR - ['PSA^S']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:33,829 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:33,829 - ERROR - ['PSEC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:03:47,142 - ERROR - 
+1 Failed download:
+2023-07-30 15:03:47,142 - ERROR - ['PW^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:11,823 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:11,824 - ERROR - ['RC^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:11,943 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:11,945 - ERROR - ['RC^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:12,180 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:12,180 - ERROR - ['RCA']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2023-01-01 -> 2023-07-30)')
+2023-07-30 15:04:30,010 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:30,011 - ERROR - ['REXR^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:30,128 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:30,128 - ERROR - ['REXR^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:31,140 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:31,140 - ERROR - ['RF^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:31,259 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:31,259 - ERROR - ['RF^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:31,380 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:31,380 - ERROR - ['RF^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:31,910 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:31,910 - ERROR - ['RFACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:04:38,468 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:38,469 - ERROR - ['RHE^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:44,063 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:44,063 - ERROR - ['RITM^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:44,184 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:44,184 - ERROR - ['RITM^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:44,305 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:44,305 - ERROR - ['RITM^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:44,424 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:44,424 - ERROR - ['RITM^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:44,811 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:44,811 - ERROR - ['RIV^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:45,607 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:45,607 - ERROR - ['RJF^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:48,044 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:48,045 - ERROR - ['RLJ^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:52,665 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:52,665 - ERROR - ['RMPL^']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:55,661 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:55,661 - ERROR - ['RNR^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:04:55,779 - ERROR - 
+1 Failed download:
+2023-07-30 15:04:55,780 - ERROR - ['RNR^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:04,492 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:04,492 - ERROR - ['RPT^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:17,184 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:17,184 - ERROR - ['RWODR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:05:17,628 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:17,628 - ERROR - ['RWT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:19,162 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:19,162 - ERROR - ['RY^T']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:23,925 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:23,925 - ERROR - ['SACH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:25,065 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:25,065 - ERROR - ['SAGAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:05:33,752 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:33,752 - ERROR - ['SB^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:05:33,872 - ERROR - 
+1 Failed download:
+2023-07-30 15:05:33,872 - ERROR - ['SB^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:17,501 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:17,501 - ERROR - ['SCE^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:17,618 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:17,619 - ERROR - ['SCE^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:17,771 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:17,771 - ERROR - ['SCE^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:17,888 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:17,888 - ERROR - ['SCE^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:18,007 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:18,007 - ERROR - ['SCE^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:19,084 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:19,084 - ERROR - ['SCHW^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:19,201 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:19,201 - ERROR - ['SCHW^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:28,216 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:28,216 - ERROR - ['SEAL^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:28,337 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:28,337 - ERROR - ['SEAL^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:34,864 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:34,864 - ERROR - ['SF^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:34,983 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:34,983 - ERROR - ['SF^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:35,103 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:35,104 - ERROR - ['SF^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:35,344 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:35,344 - ERROR - ['SFB']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:07:48,725 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:48,726 - ERROR - ['SHO^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:48,884 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:48,885 - ERROR - ['SHO^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:07:57,420 - ERROR - 
+1 Failed download:
+2023-07-30 15:07:57,420 - ERROR - ['SITC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:07,819 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:07,819 - ERROR - ['SLG^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:29,964 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:29,964 - ERROR - ['SNV^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:30,086 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:30,086 - ERROR - ['SNV^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:40,768 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:40,768 - ERROR - ['SPE^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:41,525 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:41,525 - ERROR - ['SPG^J']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:43,617 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:43,617 - ERROR - ['SPLP^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:44,269 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:44,269 - ERROR - ['SPNT^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:51,480 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:51,480 - ERROR - ['SR^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:52,144 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:52,144 - ERROR - ['SRC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:08:54,389 - ERROR - 
+1 Failed download:
+2023-07-30 15:08:54,389 - ERROR - ['SRG^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:11,257 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:11,257 - ERROR - ['STRCW']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:09:14,082 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:14,082 - ERROR - ['STT^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:14,203 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:14,203 - ERROR - ['STT^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:30,922 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:30,922 - ERROR - ['SYF^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:35,040 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:35,041 - ERROR - ['T^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:35,159 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:35,160 - ERROR - ['T^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:52,648 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:52,648 - ERROR - ['TDS^U']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:52,766 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:52,766 - ERROR - ['TDS^V']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:09:57,610 - ERROR - 
+1 Failed download:
+2023-07-30 15:09:57,610 - ERROR - ['TENKR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-30 15:10:00,213 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:00,213 - ERROR - ['TFC^I']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:00,332 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:00,332 - ERROR - ['TFC^O']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:00,450 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:00,450 - ERROR - ['TFC^R']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:04,770 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:04,771 - ERROR - ['TGH^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:04,891 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:04,891 - ERROR - ['TGH^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:28,844 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:28,844 - ERROR - ['TNP^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:28,965 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:28,965 - ERROR - ['TNP^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:46,783 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:46,783 - ERROR - ['TRTN^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:46,904 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:46,904 - ERROR - ['TRTN^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:47,026 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:47,026 - ERROR - ['TRTN^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:47,144 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:47,145 - ERROR - ['TRTN^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:47,262 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:47,263 - ERROR - ['TRTN^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:10:47,664 - ERROR - 
+1 Failed download:
+2023-07-30 15:10:47,664 - ERROR - ['TRTX^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:04,437 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:04,438 - ERROR - ['TWO^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:04,558 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:04,558 - ERROR - ['TWO^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:04,677 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:04,677 - ERROR - ['TWO^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:08,152 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:08,152 - ERROR - ['TY^']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:13,330 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:13,330 - ERROR - ['UBP^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:13,451 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:13,451 - ERROR - ['UBP^K']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:25,922 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:25,924 - ERROR - ['UMH^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,251 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,251 - ERROR - ['USB^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,371 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,373 - ERROR - ['USB^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,490 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,490 - ERROR - ['USB^P']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,614 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,614 - ERROR - ['USB^Q']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,737 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,737 - ERROR - ['USB^R']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:11:36,856 - ERROR - 
+1 Failed download:
+2023-07-30 15:11:36,856 - ERROR - ['USB^S']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:13:53,548 - ERROR - 
+1 Failed download:
+2023-07-30 15:13:53,548 - ERROR - ['VNO^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:13:53,667 - ERROR - 
+1 Failed download:
+2023-07-30 15:13:53,667 - ERROR - ['VNO^M']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:13:53,786 - ERROR - 
+1 Failed download:
+2023-07-30 15:13:53,787 - ERROR - ['VNO^N']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:13:53,906 - ERROR - 
+1 Failed download:
+2023-07-30 15:13:53,906 - ERROR - ['VNO^O']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:13:56,453 - ERROR - 
+1 Failed download:
+2023-07-30 15:13:56,454 - ERROR - ['VOYA^B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:16,380 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:16,380 - ERROR - ['WAL^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:20,668 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:20,668 - ERROR - ['WBS^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:20,787 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:20,787 - ERROR - ['WBS^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:21,421 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:21,421 - ERROR - ['WCC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:28,620 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:28,620 - ERROR - ['WFC^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:28,741 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:28,741 - ERROR - ['WFC^C']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:28,855 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:28,855 - ERROR - ['WFC^D']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:28,973 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:28,973 - ERROR - ['WFC^L']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:29,089 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:29,089 - ERROR - ['WFC^Q']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:29,208 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:29,208 - ERROR - ['WFC^R']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:29,361 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:29,361 - ERROR - ['WFC^Y']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:29,518 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:29,518 - ERROR - ['WFC^Z']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:49,583 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:49,583 - ERROR - ['WRB^E']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:49,698 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:49,698 - ERROR - ['WRB^F']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:49,816 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:49,816 - ERROR - ['WRB^G']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:49,935 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:49,935 - ERROR - ['WRB^H']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:14:53,622 - ERROR - Failed to get ticker 'WSO/B' reason: Expecting value: line 1 column 1 (char 0)
+2023-07-30 15:14:53,623 - ERROR - 
+1 Failed download:
+2023-07-30 15:14:53,623 - ERROR - ['WSO/B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:15:07,080 - ERROR - 
+1 Failed download:
+2023-07-30 15:15:07,080 - ERROR - ['XFLT^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:15:18,036 - ERROR - 
+1 Failed download:
+2023-07-30 15:15:18,036 - ERROR - ['YCBD^A']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2023-07-30 15:15:21,755 - ERROR - 
+1 Failed download:
+2023-07-30 15:15:21,755 - ERROR - ['YOTAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:29:09,709 - ERROR - 
+1 Failed download:
+2023-07-31 02:29:09,710 - ERROR - ['GFGDR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:29:18,257 - ERROR - 
+1 Failed download:
+2023-07-31 02:29:18,257 - ERROR - ['GLLIR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:29:20,145 - ERROR - 
+1 Failed download:
+2023-07-31 02:29:20,145 - ERROR - ['GLSTR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:29:26,069 - ERROR - 
+1 Failed download:
+2023-07-31 02:29:26,069 - ERROR - ['GODNR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:31:44,248 - ERROR - 
+1 Failed download:
+2023-07-31 02:31:44,248 - ERROR - ['HMACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:32:15,103 - ERROR - 
+1 Failed download:
+2023-07-31 02:32:15,103 - ERROR - ['IGTAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:32:18,789 - ERROR - 
+1 Failed download:
+2023-07-31 02:32:18,790 - ERROR - ['IMAQR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:32:50,128 - ERROR - 
+1 Failed download:
+2023-07-31 02:32:50,129 - ERROR - ['JGGCR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:35:48,018 - ERROR - 
+1 Failed download:
+2023-07-31 02:35:48,019 - ERROR - ['MBTCR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:35:48,964 - ERROR - 
+1 Failed download:
+2023-07-31 02:35:48,964 - ERROR - ['MCACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:35:49,215 - ERROR - 
+1 Failed download:
+2023-07-31 02:35:49,215 - ERROR - ['MCAFR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:35:49,469 - ERROR - 
+1 Failed download:
+2023-07-31 02:35:49,469 - ERROR - ['MCAGR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:37:07,990 - ERROR - 
+1 Failed download:
+2023-07-31 02:37:07,990 - ERROR - ['NOVVR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:37:20,169 - ERROR - 
+1 Failed download:
+2023-07-31 02:37:20,169 - ERROR - ['NVACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:37:43,979 - ERROR - 
+1 Failed download:
+2023-07-31 02:37:43,979 - ERROR - ['ONFOW']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:40:20,649 - ERROR - 
+1 Failed download:
+2023-07-31 02:40:20,650 - ERROR - ['PLTNR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:40:24,375 - ERROR - 
+1 Failed download:
+2023-07-31 02:40:24,375 - ERROR - ['PNACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:40:29,418 - ERROR - 
+1 Failed download:
+2023-07-31 02:40:29,418 - ERROR - ['PPHPR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:40:58,113 - ERROR - 
+1 Failed download:
+2023-07-31 02:40:58,113 - ERROR - ['RCA']: Exception('%ticker%: No price data found, symbol may be delisted (1d 2023-01-01 -> 2023-07-31)')
+2023-07-31 02:41:07,949 - ERROR - 
+1 Failed download:
+2023-07-31 02:41:07,949 - ERROR - ['RFACR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:41:30,608 - ERROR - 
+1 Failed download:
+2023-07-31 02:41:30,609 - ERROR - ['RWODR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:41:34,469 - ERROR - 
+1 Failed download:
+2023-07-31 02:41:34,469 - ERROR - ['SAGAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:41:52,276 - ERROR - 
+1 Failed download:
+2023-07-31 02:41:52,276 - ERROR - ['SFB']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:44:32,214 - ERROR - 
+1 Failed download:
+2023-07-31 02:44:32,214 - ERROR - ['STRCW']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:44:55,754 - ERROR - 
+1 Failed download:
+2023-07-31 02:44:55,754 - ERROR - ['TENKR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 02:48:40,043 - ERROR - 
+1 Failed download:
+2023-07-31 02:48:40,043 - ERROR - ['YOTAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
