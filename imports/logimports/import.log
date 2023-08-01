@@ -1487,3 +1487,33 @@
 2023-07-31 02:48:40,043 - ERROR - 
 1 Failed download:
 2023-07-31 02:48:40,043 - ERROR - ['YOTAR']: Exception("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2023-07-31 21:32:21,135 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/imports/importTickersData.py", line 61, in <module>
+    cursor.execute(insert_query)
+psycopg2.errors.UndefinedColumn: column "none" does not exist
+LINE 3: ...i Bioscience Inc. Common Stock', 'United States', None, 7692...
+                                                             ^
+
+
+2023-07-31 21:38:11,267 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/imports/importTickersData.py", line 61, in <module>
+    cursor.execute(insert_query)
+psycopg2.errors.UndefinedColumn: column "none" does not exist
+LINE 3: ...i Bioscience Inc. Common Stock', 'United States', None, 7692...
+                                                             ^
+
+
+2023-07-31 21:46:14,462 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/imports/importTickersData.py", line 66, in <module>
+    cursor.execute(insert_query)
+psycopg2.errors.SyntaxError: syntax error at or near "s"
+LINE 3:                 VALUES ('ALX', 'Alexander's Inc. Common Stoc...
+                                                  ^
+
+
+2023-07-31 21:48:33,704 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/imports/importTickersData.py", line 66, in <module>
+    cursor.execute(insert_query)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(200)
+
+
