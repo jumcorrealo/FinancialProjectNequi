@@ -38,23 +38,17 @@ try:
     )
     print("¡Conexión exitosa a la base de datos!")
     # Create a table if it doesn't exist
-    print("query")
+
     create_table_query = '''
-    CREATE TABLE tbtickers (
+    CREATE TABLE tbGIDSDirectory (
         "Symbol" VARCHAR(200),
         "Name" VARCHAR(500),
-        "Country" VARCHAR(500),
-        "IPO_Year" INT,
-        "Volome" BIGINT,
-        "Sector" VARCHAR(500),
-        "Industry" VARCHAR(500),
-        PRIMARY KEY ("Symbol","Country","Industry")
+        "Type" VARCHAR(200),
+        PRIMARY KEY ("Symbol","Name")
     );
     '''
-    print ("endquery")
 
     try:
-        print("jointry")
         with connection.cursor() as cursor:
             cursor.execute(create_table_query)
         connection.commit()
