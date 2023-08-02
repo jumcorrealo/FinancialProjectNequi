@@ -1,12 +1,10 @@
 from collections import Counter
 
 def test_no_duplicates_in_symbols_tbTradingHistoric():
-    # Simular los valores para symbols_tbtickers, symbols_tbgidsdirectory y symbols_tbdimSymbols
+    # Simular los valores para symbols_tbtickers, symbols_tbgidsdirectory symbols_tbdimSymbols y symbols_tbTradingHistoric
     symbols_tbtickers = [('AAPL',), ('GOOG',), ('MSFT',)]
     symbols_tbgidsdirectory = [('AMZN',), ('TSLA',)]
     symbols_tbdimSymbols = [('GOOG',), ('AAPL',), ('FB',)]
-
-    # Simular los valores para symbols_tbTradingHistoric
     symbols_tbTradingHistoric = [('AAPL',), ('GOOG',), ('AAPL',), ('TSLA',), ('MSFT',)]
 
     # Combinar los símbolos de tbtickers y tbGIDSDirectory

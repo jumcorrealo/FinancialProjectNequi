@@ -71,25 +71,44 @@ except (socket.timeout, psycopg2.OperationalError) as e:
     sys.exit(1)  # Terminate the program with a non-zero exit code
 
 
-try:
+def get_unique_symbols(cur_rds, cur_rsh):
     # Obtener los símbolos únicos de tbTradingHistoric
     cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbTradingHistoric;")
     symbols_tbTradingHistoric = cur_rds.fetchall()
     print("Symbols fetched from tbTradingHistoric successfully!")
+
+    cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbtickers;")
+    symbols_tbtickers = cur_rds.fetchall()
+    print("Symbols fetched from tbtickers successfully!")
+
+    cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbGIDSDirectory;")
+    symbols_tbgidsdirectory = cur_rds.fetchall()
+    print("Symbols fetched from tbGIDSDirectory successfully!")
+    
+    # Combinar los símbolos de tbTradingHistoric, tbtickers y tbGIDSDirectory
+    combined_symbols = symbols_tbTradingHistoric + symbols_tbtickers + symbols_tbgidsdirectory
 
     # Obtener los símbolos únicos de tbDimSymbol
     cur_rsh.execute("SELECT DISTINCT \"Symbol\" FROM tbDimSymbol;")
     symbols_tbdimSymbols = cur_rsh.fetchall()
     print("Symbols fetched from tbDimSymbol successfully!")
 
-    # Lista de comprensión para eliminar los símbolos existentes de symbols_tbTradingHistoric
-    symbols_tbTradingHistoric = [symbol for symbol in symbols_tbTradingHistoric if symbol not in symbols_tbdimSymbols]
+    # Lista de comprensión para eliminar los símbolos existentes de combined_symbols
+    unique_symbols = list(set([symbol[0] for symbol in combined_symbols if symbol not in symbols_tbdimSymbols]))
+
+    return unique_symbols
+
+
+try:
+
+    # Funcion para traer lista con symbol unica
+    combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
     # Consulta de inserción
     insert_query = "INSERT INTO tbDimSymbol (Symbol) VALUES (%s)"
 
     with conn_rsh.cursor() as cur_rsh:
-        for symbol in symbols_tbTradingHistoric:
+        for symbol in combined_symbols:
             try:
                 cur_rsh.execute(insert_query, symbol)
                 
