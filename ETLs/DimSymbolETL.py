@@ -92,9 +92,10 @@ try:
         for symbol in symbols_tbTradingHistoric:
             try:
                 cur_rsh.execute(insert_query, symbol)
-                print(f"Inserted symbol '{symbol[0]}' into tbDimSymbol successfully!")
+                
             except psycopg2.Error as e:
                 print(f"Error occurred during insertion for symbol '{symbol[0]}':", e)
+                logging.error(traceback.format_exc())
                 conn_rsh.rollback()  # Rollback the transaction in case of an error
 
     conn_rsh.commit()  # Commit all the successful insertions
