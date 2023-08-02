@@ -42,7 +42,7 @@ try:
     # Create a table if it doesn't exist
 
     create_table_query = '''
-    CREATE TABLE IF NOT EXISTS tbDimSymbol (
+    CREATE TABLE IF NOT EXISTS tbDIMGIDSDirectory (
         "idGIDS" INTEGER IDENTITY(1,1) PRIMARY KEY,
         "idsymbol" INT,
         "name" VARCHAR(200),
