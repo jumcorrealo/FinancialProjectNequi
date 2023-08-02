@@ -43,6 +43,7 @@ try:
 
     create_table_query = '''
     CREATE TABLE tbTradingHistoric (
+        "idSymbol" INT,
         "Date" DATE,
         "Open" FLOAT,
         "High" FLOAT,
@@ -50,7 +51,6 @@ try:
         "Close" FLOAT,
         "Adj_Close" FLOAT,
         "Volume" INT,
-        "idSymbol" INT,
         PRIMARY KEY ("Date", "idSymbol"),
         FOREIGN KEY ("idSymbol") REFERENCES tbDimSymbol ("idSymbol")
     );
