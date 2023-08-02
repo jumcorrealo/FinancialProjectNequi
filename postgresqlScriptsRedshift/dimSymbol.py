@@ -44,7 +44,7 @@ try:
     create_table_query = '''
     CREATE TABLE IF NOT EXISTS tbDimSymbol (
         "idSymbol" SERIAL PRIMARY KEY,
-        "Symbol" VARCHAR(200),
+        "Symbol" VARCHAR(200)
     );
     '''
 
