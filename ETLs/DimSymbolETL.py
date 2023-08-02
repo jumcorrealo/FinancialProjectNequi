@@ -110,7 +110,7 @@ try:
     with conn_rsh.cursor() as cur_rsh:
         for symbol in combined_symbols:
             try:
-                cur_rsh.execute(insert_query, symbol)
+                cur_rsh.execute(insert_query, (symbol,))
                 
             except psycopg2.Error as e:
                 print(f"Error occurred during insertion for symbol '{symbol[0]}':", e)
