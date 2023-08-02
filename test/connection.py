@@ -25,11 +25,9 @@ def connect_to_RDS():
             user=db_user_RDS,
             password=db_password_RDS
         )
-    cur_rds = conn_rds.cursor()
 
 
-    return conn_rds, cur_rds
-
+    return conn_rds
 def connection_to_RedShift():
 
     conn_rsh = psycopg2.connect(
@@ -39,8 +37,7 @@ def connection_to_RedShift():
             user=db_user_RSH,
             password=db_password_RSH
         )
-    cur_rsh = conn_rsh.cursor()
-    return conn_rsh, cur_rsh
+    return conn_rsh
 
 
 def close_connections(conn):

@@ -20,8 +20,8 @@ class TestConnection(unittest.TestCase):
                                                  'username': connection.db_user_RSH, 'password': connection.db_password_RSH, 'port': connection.db_port_RSH}}
 
         # Call the function to connect to databases
-        conn_rds, cur_rds = connection.connect_to_RDS()
-        conn_rsh, cur_rsh = connection.connection_to_RedShift()
+        conn_rds = connection.connect_to_RDS()
+        conn_rsh = connection.connection_to_RedShift()
 
 
         # Assert that the connections are correctly established
@@ -35,6 +35,17 @@ class TestConnection(unittest.TestCase):
         mock_connect.assert_any_call(host=connection.db_endpoint_RSH, port=connection.db_port_RSH, database=connection.db_name_RSH,
                                      user=connection.db_user_RSH, password=connection.db_password_RSH)
         
+
+    def test_closeconnection(self):
+
+        mock_conn_rds = 'Mocked Connection RDS'
+        mock_conn_rsh = 'Mocked Connection RSH'
+
+        connection.close_connections(mock_conn_rds)
+        connection.close_connections(mock_conn_rsh)
+
+        self.assertTrue(mock_conn_rsh.close.called)
+        self.assertTrue(mock_conn_rds.close.called)
 
 if __name__ == '__main__':
     unittest.main()
