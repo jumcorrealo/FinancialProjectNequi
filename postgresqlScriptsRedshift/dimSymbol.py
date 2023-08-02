@@ -23,7 +23,7 @@ db_endpoint = config['redshift']['host']
 db_name = config['redshift']['database_name']
 db_user = config['redshift']['username']
 db_password = config['redshift']['password']
-db_port = config['redshift']['port']
+db_port = 5439
 
 # Set the timeout for the connection attempt (in seconds)
 connection_timeout = 10
