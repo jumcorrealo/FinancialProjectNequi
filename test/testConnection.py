@@ -1,9 +1,6 @@
-import socket
-import sys
-import pandas as pd
 import unittest
 from unittest.mock import patch
-import package.connection as connection
+import connection as connection
 
 
 
