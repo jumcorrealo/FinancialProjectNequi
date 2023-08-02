@@ -1,0 +1,22 @@
+2023-08-02 01:50:51,017 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/postgresqlScriptsRedshift/dimSymbol.py", line 53, in <module>
+    cursor.execute(create_table_query)
+psycopg2.errors.SyntaxError: syntax error at or near ")"
+LINE 5:     );
+            ^
+
+
+2023-08-02 01:52:56,305 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/postgresqlScriptsRedshift/dimSymbol.py", line 53, in <module>
+    cursor.execute(create_table_query)
+psycopg2.errors.FeatureNotSupported: Column "tbdimsymbol.idsymbol" has unsupported type "serial".
+
+
+2023-08-02 18:36:19,332 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/FinancialProjectNequi/postgresqlScriptsRedshift/tbTradingHistoric.py", line 61, in <module>
+    cursor.execute(create_table_query)
+psycopg2.errors.SyntaxError: syntax error at or near "EXIST"
+LINE 2:     CREATE TABLE IF NOT EXIST tbTradingHistoric (
+                                ^
+
+
