@@ -109,20 +109,18 @@ try:
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
+    # Convertir el DataFrame en una lista de tuplas
+    data_to_insert = combined_symbols.to_records(index=False)
+
     # Consulta de inserción
-    insert_query = "INSERT INTO tbDimSymbol (Symbol) VALUES (%s)"
+    insert_query = "INSERT INTO tbTradingHistoric (\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Adj_Close\", \"Volume\", \"idSymbol\") VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
 
+    # Ejecutar la inserción
     with conn_rsh.cursor() as cur_rsh:
-        for symbol in combined_symbols:
-            try:
-                cur_rsh.execute(insert_query, (symbol,))
-                
-            except psycopg2.Error as e:
-                print(f"Error occurred during insertion for symbol '{symbol[0]}':", e)
-                logging.error(traceback.format_exc())
-                conn_rsh.rollback()  # Rollback the transaction in case of an error
+        cur_rsh.executemany(insert_query, data_to_insert)
 
-    conn_rsh.commit()  # Commit all the successful insertions
+    # Confirmar la transacción
+    conn_rsh.commit()
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
