@@ -23,7 +23,7 @@ db_endpoint = config['redshift']['host']
 db_name = config['redshift']['database_name']
 db_user = config['redshift']['username']
 db_password = config['redshift']['password']
-db_port = 5439
+db_port = config['redshift']['port']
 
 # Set the timeout for the connection attempt (in seconds)
 connection_timeout = 10
@@ -35,7 +35,8 @@ try:
         host=db_endpoint,
         database=db_name,
         user=db_user,
-        password=db_password
+        password=db_password,
+        port = db_port
     )
     print("¡Conexión exitosa a la base de datos!")
     # Create a table if it doesn't exist
