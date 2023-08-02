@@ -5,4 +5,3 @@ datetime
 psycopg2-binary
 openpxl
 matplotlib
-redshift_connector
