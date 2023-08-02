@@ -42,7 +42,7 @@ try:
     # Create a table if it doesn't exist
 
     create_table_query = '''
-    CREATE TABLE tbTradingHistoric (
+    CREATE TABLE IF NOT EXIST tbTradingHistoric (
         "idSymbol" INT,
         "Date" DATE,
         "Open" FLOAT,
