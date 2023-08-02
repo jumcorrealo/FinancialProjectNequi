@@ -2,7 +2,7 @@ import configparser
 import psycopg2
 
 config = configparser.ConfigParser()
-config.read('.../config.ini')
+config.read('../config.ini')
 db_endpoint_RDS = config['database']['host']
 db_name_RDS = config['database']['database_name']
 db_user_RDS = config['database']['username']
