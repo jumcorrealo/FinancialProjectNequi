@@ -90,7 +90,7 @@ def get_unique_symbols(cur_rds, cur_rsh):
     print("Symbols fetched from tbDimSymbol successfully!")
 
     # Cruza la columna 'symbols' del DataFrame df_trading_historic con la columna 'Symbol' de df_DimSymbols
-    merged_df = df_trading_historic.merge(df_DimSymbols, left_on='symbols', right_on='Symbol', how='left')
+    merged_df = df_trading_historic.merge(df_DimSymbols, left_on='Symbols', right_on='symbol', how='left')
 
     # Reemplaza la columna 'symbols' por la columna 'idsymbols' del DataFrame df_DimSymbols
     merged_df['symbols'] = merged_df['idsymbols']
