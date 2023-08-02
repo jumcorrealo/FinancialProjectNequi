@@ -90,12 +90,13 @@ def get_unique_symbols(cur_rds, cur_rsh):
     print("Symbols fetched from tbDimSymbol successfully!")
 
     # Cruza la columna 'symbols' del DataFrame df_trading_historic con la columna 'Symbol' de df_DimSymbols
-    merged_df = df_trading_historic.merge(df_DimSymbols, left_on='Symbols', right_on='symbol', how='left')
+    merged_df = df_trading_historic.merge(df_DimSymbols, left_on='Symbol', right_on='symbol', how='left')
 
     # Reemplaza la columna 'symbols' por la columna 'idsymbols' del DataFrame df_DimSymbols
-    merged_df['symbols'] = merged_df['idsymbols']
+    merged_df['Symbol'] = merged_df['idsymbol']
 
     # Elimina la columna 'Symbol' que fue utilizada solo para el cruce (opcional)
+    merged_df.drop(columns='symbol', inplace=True)
     merged_df.drop(columns='Symbol', inplace=True)
 
     # Retornar el DataFrame df_trading_historic con los ids seleccionados
@@ -111,6 +112,8 @@ try:
 
     # Convertir el DataFrame en una lista de tuplas
     data_to_insert = combined_symbols.to_records(index=False)
+    
+    data_to_insert = [(str(row[0]), row[1], row[2], row[3], row[4], row[5], int(row[6]), int(row[7])) for row in data_to_insert]
 
     # Consulta de inserción
     insert_query = "INSERT INTO tbTradingHistoric (\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Adj_Close\", \"Volume\", \"idSymbol\") VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"

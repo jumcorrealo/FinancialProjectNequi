@@ -1,0 +1,30 @@
+2023-08-02 17:36:01,568 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\3145673238.py", line 120, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+
+2023-08-02 17:41:55,180 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\3674482564.py", line 121, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+
+2023-08-02 17:43:39,178 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\2685338920.py", line 123, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+
+2023-08-02 17:44:46,832 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\112565899.py", line 123, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+
+2023-08-02 17:47:02,552 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\3142168379.py", line 123, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.InterfaceError: cursor already closed
+
+2023-08-02 17:48:28,601 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\112565899.py", line 123, in <module>
+    cur_rsh.executemany(insert_query, data_to_insert)
+psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
+
