@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch,MagicMock
 import connection as connection
 
 
@@ -38,14 +38,17 @@ class TestConnection(unittest.TestCase):
 
     def test_closeconnection(self):
 
-        mock_conn_rds = 'Mocked Connection RDS'
-        mock_conn_rsh = 'Mocked Connection RSH'
+        mock_conn_rds = MagicMock()
+        mock_conn_rsh = MagicMock()
+
+        mock_conn_rds.close.return_value = None
+        mock_conn_rsh.close.return_value = None
 
         connection.close_connections(mock_conn_rds)
         connection.close_connections(mock_conn_rsh)
 
-        self.assertTrue(mock_conn_rsh.close.called)
-        self.assertTrue(mock_conn_rds.close.called)
+        mock_conn_rsh.close.assert_called_once()
+        mock_conn_rds.close.assert_called_once()
 
 if __name__ == '__main__':
     unittest.main()
