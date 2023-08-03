@@ -121,8 +121,8 @@ try:
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    # Dividir el DataFrame en grupos de 10,000 registros
-    chunk_size = 10000
+    # Dividir el DataFrame en grupos de 1000 registros
+    chunk_size = 1000
     num_chunks = (len(combined_symbols) - 1) // chunk_size + 1
 
     for i in tqdm(range(num_chunks)):
