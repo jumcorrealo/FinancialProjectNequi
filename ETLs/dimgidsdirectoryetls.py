@@ -5,7 +5,7 @@ import sys
 import traceback
 import logging
 import pandas as pd
-
+import re
 
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -113,12 +113,28 @@ def insert_function(df, table, conn):
     
     conn.commit()
     
+# Función para agrupar nombres similares
+def group_names(name):
+    # Expresión regular para buscar patrones en el nombre
+    pattern = r'(\bNasdaq-100\b)|(\bNasdaq\b)|(\b[A-Z]+ ETF\b)|(\b[A-Z]+ Muni Bond ETF\b)' +\
+            r'|(\bS&P\b)|(\bNASDAQ\b)|(\bThe Capital Strength\b)|(\bSettle\b.*)|(\bFidelity Disruptive\b.*)' + \
+            r'|(\bPHLX\b)|(\bThe Capital Strength\b)|(\bOMX\b)|(\bOMRX\b)|(\bFirst North\b)'+\
+            r'|(\bDorsey Wright\b)|(\bCompass EMP\b)|(\bGlobal X\b)|(\bOptimal Blue 30Yr\b)'+\
+            r'|(\bStrategic Technology & Ecommerce\b)|(\Strategic Hotel & Lodging\b)|(\bStrategic E-Commerce\b)'+\
+            r'|(\bStrategic Fintech & Digital Payments\b)|(\bCRSP US\b)'
+
+    match = re.search(pattern, name)
+    if match:
+        return match.group()
+    return name
+
 
 try:
 
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
-
+    # Aplicar la función a la columna 'Name' para obtener la nueva columna 'Grouped Name'
+    combined_symbols['Name'] = combined_symbols['Name'].apply(group_names)
     insert_function(combined_symbols,'tbdimgidsdirectory',conn_rsh)
 
 
