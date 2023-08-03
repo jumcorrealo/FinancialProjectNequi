@@ -5,7 +5,7 @@ import sys
 import traceback
 import logging
 import pandas as pd
-
+import tqdm
 
 
 for handler in logging.root.handlers[:]:
@@ -125,9 +125,10 @@ try:
     chunk_size = 10000
     num_chunks = (len(combined_symbols) - 1) // chunk_size + 1
 
-    for i in range(num_chunks):
+    for i in tqdm(range(num_chunks)):
         chunk = combined_symbols.iloc[i * chunk_size:(i + 1) * chunk_size]
         insert_function(chunk, 'tbTradingHistoric', conn_rsh)
+        print(f"insert num:{num_chunks}")
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
