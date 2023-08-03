@@ -46,10 +46,7 @@ try:
         "idTickers" INTEGER IDENTITY(1,1) PRIMARY KEY,
         "idSymbol" INT ,
         "idCountry" INT ,
-        "idSector" INT ,
-        FOREIGN ("idSymbol") KEY REFERENCES tbDimSymbol("idSymbol"),
-        FOREIGN ("idCountry") KEY REFERENCES tbDimCountry("idCountry"),
-        FOREIGN ("idSector") KEY REFERENCES tbDimSector("idsector")
+        "idSector" INT
     );
     '''
 
