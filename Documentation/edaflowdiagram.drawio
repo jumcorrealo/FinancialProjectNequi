@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-08-03T17:46:20.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZCDfL8pbgD1oaT5AL4Lc" version="21.6.6" type="device">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1114" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="g85x7FWINDNEgQS-XJ0Y-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="dbTickers" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="244.5" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-55" target="g85x7FWINDNEgQS-XJ0Y-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-58" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-57">
+          <mxGeometry x="-0.3113" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-55" target="g85x7FWINDNEgQS-XJ0Y-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-79" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-60">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-55" value="IPO_Year IS NULL" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-56" target="g85x7FWINDNEgQS-XJ0Y-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="260" />
+              <mxPoint x="305" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-56" value="IPO_Year = 1900" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="138.5" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-59" target="g85x7FWINDNEgQS-XJ0Y-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-63" value="si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-62">
+          <mxGeometry x="-0.3223" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-59" target="g85x7FWINDNEgQS-XJ0Y-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-80" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-65">
+          <mxGeometry x="-0.1053" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-59" value="Country IS NULL" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="287" width="129" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-61" target="g85x7FWINDNEgQS-XJ0Y-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="390" />
+              <mxPoint x="305" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-61" value="idCountry = 1" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="275.5" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-64" target="g85x7FWINDNEgQS-XJ0Y-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-81" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-69">
+          <mxGeometry x="-0.3554" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-64" target="g85x7FWINDNEgQS-XJ0Y-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-82" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g85x7FWINDNEgQS-XJ0Y-73">
+          <mxGeometry x="-0.0573" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-64" value="Sector | Industry = NULL" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199.5" y="420" width="210" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-68" target="g85x7FWINDNEgQS-XJ0Y-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="530" />
+              <mxPoint x="305" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-68" value="idSector = 1" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="408.5" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-72" value="dbTickers en Redshift" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="244.5" y="555.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-74" target="g85x7FWINDNEgQS-XJ0Y-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-74" value="GIDS Directory" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g85x7FWINDNEgQS-XJ0Y-75" target="g85x7FWINDNEgQS-XJ0Y-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-75" value="name = expresion regular" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800.25" y="138.5" width="199.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g85x7FWINDNEgQS-XJ0Y-87" value="tbGids en Redshift" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
