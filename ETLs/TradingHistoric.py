@@ -75,7 +75,7 @@ except (socket.timeout, psycopg2.OperationalError) as e:
 def get_unique_symbols(cur_rds, cur_rsh):
     # Obtener los símbolos únicos de tbTradingHistoric
     with cur_rds:
-        cur_rds.execute("SELECT * FROM tbTradingHistoric;")
+        cur_rds.execute("SELECT * FROM tbTradingHistoric LIMIT 100000;")
         columns = [desc[0] for desc in cur_rds.description]
         data = cur_rds.fetchall()
         df_trading_historic = pd.DataFrame(data, columns=columns)
@@ -104,26 +104,28 @@ def get_unique_symbols(cur_rds, cur_rsh):
 
     return df_trading_historic_with_ids
 
+def insert_function(df, table, conn):
+    cursor = conn.cursor()
+    for index, row in df.iterrows():
+        insert_query = f"""INSERT INTO {table} ("idsymbol", "date", "open", "high","low","close","adj_close","volume") 
+        VALUES ({row['idsymbol']},'{row['Date']}',{row['Open']},{row['High']},{row['Low']},{row['Close']},{row['Adj_Close']},{row['Volume']});
+        """
+        cursor.execute(insert_query)
+    
+    conn.commit()
+
+
 
 try:
 
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    # Convertir el DataFrame en una lista de tuplas
-    data_to_insert = combined_symbols.to_records(index=False)
-    
-    data_to_insert = [(str(row[0]), row[1], row[2], row[3], row[4], row[5], int(row[6]), int(row[7])) for row in data_to_insert]
+    combined_symbols['idcountry'].fillna(1,inplace=True)
+    combined_symbols['idsector'].fillna(1,inplace=True)
 
-    # Consulta de inserción
-    insert_query = "INSERT INTO tbTradingHistoric (\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Adj_Close\", \"Volume\", \"idSymbol\") VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+    insert_function(combined_symbols,'tbTradingHistoric',conn_rsh)
 
-    # Ejecutar la inserción
-    with conn_rsh.cursor() as cur_rsh:
-        cur_rsh.executemany(insert_query, data_to_insert)
-
-    # Confirmar la transacción
-    conn_rsh.commit()
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
