@@ -28,3 +28,16 @@ psycopg2.InterfaceError: cursor already closed
     cur_rsh.executemany(insert_query, data_to_insert)
 psycopg2.ProgrammingError: can't adapt type 'numpy.int64'
 
+2023-08-02 19:07:51,367 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\630434312.py", line 60, in <module>
+    conn_rds = connect_to_RDS()
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Temp\ipykernel_11896\630434312.py", line 36, in connect_to_RDS
+    conn_rds = psycopg2.connect(
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "database-publicfinanciera.cumo4u68u7bu.us-east-1.rds.amazonaws.com" to address: Unknown host
+
+

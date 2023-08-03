@@ -4,7 +4,7 @@ import socket
 import sys
 import traceback
 import logging
-
+import pandas as pd
 
 
 for handler in logging.root.handlers[:]:
@@ -73,51 +73,54 @@ except (socket.timeout, psycopg2.OperationalError) as e:
 
 def get_unique_symbols(cur_rds, cur_rsh):
     # Obtener los símbolos únicos de tbTradingHistoric
-    cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbTradingHistoric;")
-    symbols_tbTradingHistoric = cur_rds.fetchall()
-    print("Symbols fetched from tbTradingHistoric successfully!")
-
-    cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbtickers;")
-    symbols_tbtickers = cur_rds.fetchall()
-    print("Symbols fetched from tbtickers successfully!")
-
-    cur_rds.execute("SELECT DISTINCT \"Symbol\" FROM tbGIDSDirectory;")
-    symbols_tbgidsdirectory = cur_rds.fetchall()
-    print("Symbols fetched from tbGIDSDirectory successfully!")
+    with cur_rds:
+        cur_rds.execute("SELECT * FROM tbGIDSDirectory;")
+        columns = [desc[0] for desc in cur_rds.description]
+        data = cur_rds.fetchall()
+        df_gidsdirectory = pd.DataFrame(data, columns=columns)
     
-    # Combinar los símbolos de tbTradingHistoric, tbtickers y tbGIDSDirectory
-    combined_symbols = symbols_tbTradingHistoric + symbols_tbtickers + symbols_tbgidsdirectory
-
+    
     # Obtener los símbolos únicos de tbDimSymbol
-    cur_rsh.execute("SELECT DISTINCT \"Symbol\" FROM tbDimSymbol;")
-    symbols_tbdimSymbols = cur_rsh.fetchall()
+    with cur_rsh:
+        cur_rsh.execute("SELECT * FROM tbDimSymbol;")
+        columns = [desc[0] for desc in cur_rsh.description]
+        data = cur_rsh.fetchall()
+        df_DimSymbols = pd.DataFrame(data, columns=columns)
     print("Symbols fetched from tbDimSymbol successfully!")
 
-    # Lista de comprensión para eliminar los símbolos existentes de combined_symbols
-    unique_symbols = list(set([symbol[0] for symbol in combined_symbols if symbol not in symbols_tbdimSymbols]))
+    # Cruza la columna 'symbols' del DataFrame df_gidsdirectory con la columna 'Symbol' de df_DimSymbols
+    merged_df = df_gidsdirectory.merge(df_DimSymbols, left_on='Symbol', right_on='symbol', how='left')
 
-    return unique_symbols
+    # Reemplaza la columna 'symbols' por la columna 'idsymbols' del DataFrame df_DimSymbols
+    merged_df['Symbol'] = merged_df['idsymbol']
 
+    # Elimina la columna 'Symbol' que fue utilizada solo para el cruce (opcional)
+    merged_df.drop(columns='symbol', inplace=True)
+    merged_df.drop(columns='Symbol', inplace=True)
+
+    # Retornar el DataFrame df_gidsdirectory con los ids seleccionados
+    df_gidsdirectory_with_ids = merged_df
+
+    return df_gidsdirectory_with_ids
+
+def insert_function(df, table, conn):
+    cursor = conn.cursor()
+    for index, row in df.iterrows():
+        insert_query = f"""INSERT INTO {table} (\"idsymbol\", \"name\", \"type\") 
+        VALUES ('{row['idsymbol']}',{row['Name']},{row['Type']},);
+        """
+        cursor.execute(insert_query)
+    
+    conn.commit()
+    
 
 try:
 
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    # Consulta de inserción
-    insert_query = "INSERT INTO tbDimSymbol (Symbol) VALUES (%s)"
+    insert_function(combined_symbols,'tbdimgidsdirectory',conn_rsh)
 
-    with conn_rsh.cursor() as cur_rsh:
-        for symbol in combined_symbols:
-            try:
-                cur_rsh.execute(insert_query, (symbol,))
-                
-            except psycopg2.Error as e:
-                print(f"Error occurred during insertion for symbol '{symbol[0]}':", e)
-                logging.error(traceback.format_exc())
-                conn_rsh.rollback()  # Rollback the transaction in case of an error
-
-    conn_rsh.commit()  # Commit all the successful insertions
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
