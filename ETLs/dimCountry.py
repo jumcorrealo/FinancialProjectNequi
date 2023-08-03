@@ -83,9 +83,10 @@ def get_unique_symbols(cur_rds, cur_rsh):
     country_tbcountry = cur_rsh.fetchall()
     print("Symbols fetched from tbdimcountry successfully!")
 
+    Country_tbtickers['Country'] = Country_tbtickers['Country'].repacle('','N/A')
     # Lista de comprensión para eliminar los símbolos existentes de Country_tbtickers
     unique_symbols = list(set([country[0] for country in Country_tbtickers if country not in country_tbcountry]))
-
+    
     return unique_symbols
 
 
@@ -93,7 +94,7 @@ try:
 
     # Funcion para traer lista con country unica
     Country_tbtickers = get_unique_symbols(cur_rds, cur_rsh)
-
+    
     # Consulta de inserción
     insert_query = "INSERT INTO tbdimcountry (Country) VALUES (%s)"
 
