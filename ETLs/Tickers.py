@@ -116,6 +116,7 @@ def get_unique_symbols(cur_rds, cur_rsh):
     merged_df = merged_df.merge(df_Dimsectors, left_on=['Sector', 'Industry'], right_on=['sector', 'industry'], how='left')
     # Elimina la columna 'Symbol' que fue utilizada solo para el cruce (opcional)
     merged_df.drop(columns=['symbol', 'Symbol', 'Sector', 'sector', 'Industry', 'industry', 'Country', 'country'], inplace=True)
+
     merged_df['IPO_Year'] = merged_df['IPO_Year'].replace('', 1900)
     merged_df['IPO_Year'] = merged_df['IPO_Year'].fillna(1900)
 
@@ -130,7 +131,7 @@ try:
     # Convertir el DataFrame en una lista de tuplas
     data_to_insert = combined_symbols.to_records(index=False)
     
-    data_to_insert = [(str(row[0]), int(row[1]), int(row[2]), int(row[3]), int(row[4])) for row in data_to_insert]
+    
 
     # Consulta de inserción
     insert_query = "INSERT INTO tbTickers (\"name\", \"IPO_Year\", \"idsymbol\", \"idcountry\", \"idsector\") VALUES (%s, %s, %s, %s, %s)"
