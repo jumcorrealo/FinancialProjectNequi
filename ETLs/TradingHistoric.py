@@ -5,7 +5,7 @@ import sys
 import traceback
 import logging
 import pandas as pd
-import tqdm
+import tqdm as tqdm
 
 
 for handler in logging.root.handlers[:]:
