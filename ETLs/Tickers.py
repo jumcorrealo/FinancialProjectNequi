@@ -110,11 +110,10 @@ def get_unique_symbols(cur_rds, cur_rsh):
     merged_df = df_trading_historic.merge(df_DimSymbols, left_on='Symbol', right_on='symbol', how='left')
 
     # Cruza la columna 'country' del DataFrame df_trading_historic con la columna 'Country' de df_Dimcountrys
-    merged_df = merged_df.merge(df_Dimcountrys, left_on='country', right_on='Country', how='left')
+    merged_df = merged_df.merge(df_Dimcountrys, left_on='Country', right_on='country', how='left')
 
     # Cruza la columna 'sector' e 'industry' del DataFrame merged_df con las columnas 'idsector', 'Sector' e 'Industry' de df_Dimsectors
     merged_df = merged_df.merge(df_Dimsectors, left_on=['Sector', 'Industry'], right_on=['sector', 'industry'], how='left')
-
     # Elimina la columna 'Symbol' que fue utilizada solo para el cruce (opcional)
     merged_df.drop(columns=['symbol', 'Symbol', 'Sector', 'sector', 'Industry', 'industry', 'Country', 'country'], inplace=True)
     merged_df['IPO_Year'] = merged_df['IPO_Year'].replace('', 1900)
