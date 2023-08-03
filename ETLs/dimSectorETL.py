@@ -83,8 +83,9 @@ def get_unique_symbols(cur_rds, cur_rsh):
     sectorIndustry_tbdimsector = cur_rsh.fetchall()
     print("Symbols fetched from tbdimsector successfully!")
 
-    sectorIndustry_tbtickers['Sector'] = sectorIndustry_tbtickers['Sector'].repacle('','N/A')
-    sectorIndustry_tbtickers['Industry'] = sectorIndustry_tbtickers['Industry'].repacle('','N/A')
+    # Reemplazar valores vacíos en sectorIndustry_tbtickers por 'N/A'
+    sectorIndustry_tbtickers = [(sector if sector else 'N/A', industry if industry else 'N/A') for sector, industry in sectorIndustry_tbtickers]
+    
     # Lista de comprensión para eliminar los símbolos existentes de sectorIndustry_tbtickers
     unique_symbols = [(sector, industry) for sector, industry in sectorIndustry_tbtickers if (sector, industry) not in sectorIndustry_tbdimsector]
     
