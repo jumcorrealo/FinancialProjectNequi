@@ -107,7 +107,7 @@ def insert_function(df, table, conn):
     cursor = conn.cursor()
     for index, row in df.iterrows():
         insert_query = f"""INSERT INTO {table} (\"idsymbol\", \"name\", \"type\") 
-        VALUES ('{row['idsymbol']}',{row['Name']},{row['Type']},);
+        VALUES ('{row['idsymbol']}',{row['Name']},{row['Type']});
         """
         cursor.execute(insert_query)
     
