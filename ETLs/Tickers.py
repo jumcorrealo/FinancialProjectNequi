@@ -131,7 +131,7 @@ try:
     # Convertir el DataFrame en una lista de tuplas
     data_to_insert = combined_symbols.to_records(index=False)
     
-    
+    data_to_insert = [(str(row['name']), int(row['IPO_Year']), int(row['idsymbol']), int(row['idcountry']), int(row['idsector'])) for row in data_to_insert]
 
     # Consulta de inserción
     insert_query = "INSERT INTO tbTickers (\"name\", \"IPO_Year\", \"idsymbol\", \"idcountry\", \"idsector\") VALUES (%s, %s, %s, %s, %s)"
