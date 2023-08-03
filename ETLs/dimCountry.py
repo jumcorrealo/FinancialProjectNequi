@@ -95,6 +95,13 @@ try:
     # Funcion para traer lista con country unica
     Country_tbtickers = get_unique_symbols(cur_rds, cur_rsh)
     
+    cur_rds.execute("SELECT COUNT(*) FROM tbtickers;")
+    count_source_before_insert = cur_rds.fetchone()[0]
+
+    # Consulta de conteo de registros en tbdimcountry antes de la inserción
+    cur_rsh.execute("SELECT COUNT(*) FROM tbdimcountry;")
+    count_destination_before_insert = cur_rsh.fetchone()[0]
+
     # Consulta de inserción
     insert_query = "INSERT INTO tbdimcountry (Country) VALUES (%s)"
 
@@ -109,6 +116,28 @@ try:
                 conn_rsh.rollback()  # Rollback the transaction in case of an error
 
     conn_rsh.commit()  # Commit all the successful insertions
+
+    # Consulta de conteo de registros en tbdimcountry después de la inserción
+    cur_rsh.execute("SELECT COUNT(*) FROM tbdimcountry;")
+    count_destination_after_insert = cur_rsh.fetchone()[0]
+
+    # Verificación de la integridad de los datos
+    if count_destination_after_insert - count_destination_before_insert != len(Country_tbtickers):
+        print("Error: Inconsistent data integrity. Some records were not inserted.")
+        logging.error("Error: Inconsistent data integrity. Some records were not inserted.")
+    else:
+        print("Data insertion was successful and consistent!")
+
+    # Consulta de conteo de registros en tbtickers después de la inserción
+    cur_rds.execute("SELECT COUNT(*) FROM tbtickers;")
+    count_source_after_insert = cur_rds.fetchone()[0]
+
+    # Verificación de la integridad de los datos en la fuente
+    if count_source_after_insert != count_source_before_insert:
+        print("Error: Inconsistent data integrity in the source table 'tbtickers'.")
+        logging.error("Error: Inconsistent data integrity in the source table 'tbtickers'.")
+    else:
+        print("Source data integrity is preserved.")
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
