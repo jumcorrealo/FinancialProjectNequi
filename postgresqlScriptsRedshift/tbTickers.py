@@ -46,7 +46,9 @@ try:
         "idTickers" INTEGER IDENTITY(1,1) PRIMARY KEY,
         "idSymbol" INT ,
         "idCountry" INT ,
-        "idSector" INT
+        "idSector" INT,
+        "name" VARCHAR(500),
+        "IPO_Year INT
     );
     '''
 
