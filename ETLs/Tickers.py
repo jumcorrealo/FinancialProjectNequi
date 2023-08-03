@@ -138,7 +138,7 @@ try:
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    insert_function(combined_symbols,'tbdimgidsdirectory',conn_rsh)
+    insert_function(combined_symbols,'tbTickers',conn_rsh)
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
