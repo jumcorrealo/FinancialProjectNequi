@@ -140,7 +140,7 @@ except (socket.timeout, psycopg2.OperationalError) as e:
 except psycopg2.Error as e:
     print("Error occurred during SQL query:", e)
     logging.error(traceback.format_exc())
-    conn_rsh.rollback()  # Rollback the transaction in case of an error
+   
 
 
 conn_rds.close()
