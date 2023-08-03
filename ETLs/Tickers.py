@@ -123,25 +123,22 @@ def get_unique_symbols(cur_rds, cur_rsh):
     return merged_df
 
 
+def insert_function(df, table, conn):
+    cursor = conn.cursor()
+    for index, row in df.iterrows():
+        insert_query = f"""INSERT INTO {table} ("name", "IPO_Year", "idsymbol", "idcountry","idsector") 
+        VALUES ('{row['name']}',{row['IPO_Year']},{row['idsymbol']},{row['idcountry']},{row['idsector']});
+        """
+        cursor.execute(insert_query)
+    
+    conn.commit()
+
 try:
 
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    # Convertir el DataFrame en una lista de tuplas
-    data_to_insert = combined_symbols.to_records(index=False)
-    
-    data_to_insert = [(str(row['name']), int(row['IPO_Year']), int(row['idsymbol']), int(row['idcountry']), int(row['idsector'])) for row in data_to_insert]
-
-    # Consulta de inserción
-    insert_query = "INSERT INTO tbTickers (\"name\", \"IPO_Year\", \"idsymbol\", \"idcountry\", \"idsector\") VALUES (%s, %s, %s, %s, %s)"
-
-    # Ejecutar la inserción
-    with conn_rsh.cursor() as cur_rsh:
-        cur_rsh.executemany(insert_query, data_to_insert)
-
-    # Confirmar la transacción
-    conn_rsh.commit()
+    insert_function(combined_symbols,'tbdimgidsdirectory',conn_rsh)
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
