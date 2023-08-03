@@ -1,0 +1,27 @@
+,esquema,tabla,columna,tipo de dato,longitud máxima,descripción
+0,pg_internal,redshift_auto_health_check_32287650,a,integer,,
+1,public,tbdimcountry,idcountry,integer,,
+2,public,tbdimcountry,country,character varying,500.0,
+3,public,tbdimgidsdirectory,idgids,integer,,
+4,public,tbdimgidsdirectory,idsymbol,integer,,FK Referencia a tbdimsymbol
+5,public,tbdimgidsdirectory,name,character varying,200.0,Nombre del indice financiero o ETF al que pertenece la acción
+6,public,tbdimgidsdirectory,type,character varying,200.0,"I = Index, E = ETF (fondo cotizado)"
+7,public,tbdimsector,idsector,integer,,
+8,public,tbdimsector,sector,character varying,500.0,"N/A para valores nulos, es el sector al que pertenece la acción"
+9,public,tbdimsector,industry,character varying,500.0,"N/A para valores nulos, es la industria a la que pertenece la acción"
+10,public,tbdimsymbol,idsymbol,integer,,
+11,public,tbdimsymbol,symbol,character varying,200.0,"Simbolo bursátil, es un conjunto de caracteres que representa valores cotizados en bolsa"
+12,public,tbtickers,idtickers,integer,,
+13,public,tbtickers,idsymbol,integer,,FK que referencia a la tabla tbdimsymbol
+14,public,tbtickers,idcountry,integer,,FK que referencia a la tabla tbdimcountry
+15,public,tbtickers,idsector,integer,,FK que referencia a la tabla tbdimsector
+16,public,tbtickers,name,character varying,500.0,Nombre de la empresa que emite la acción
+17,public,tbtickers,ipo_year,integer,,"Año en la que inició la cotización en bolsa, 1900 para valor desconocido"
+18,public,tbtradinghistoric,idsymbol,integer,,FK referencia a la tabla tbdimsymbol
+19,public,tbtradinghistoric,date,date,,Fecha del registro
+20,public,tbtradinghistoric,open,double precision,,Valor con el que inició el día la cotización en dolares
+21,public,tbtradinghistoric,high,double precision,,Valor más alto que alcanzó la cotización en el día
+22,public,tbtradinghistoric,low,double precision,,Valor más bajo que alcanzó la cotización en el día
+23,public,tbtradinghistoric,close,double precision,,Valor con el que cerro el día la cotización en dolares
+24,public,tbtradinghistoric,adj_close,double precision,,"El cierre ajustado es el precio de cierre tras los ajustes por todas las divisiones y distribuciones de dividendos aplicables. Los datos se ajustan utilizando los multiplicadores apropiados de divisiones y dividendos, de acuerdo con las normas del Center for Research in Security Prices (CRSP)."
+25,public,tbtradinghistoric,volume,integer,,cantidad de acciones vendidas hasta la fecha
