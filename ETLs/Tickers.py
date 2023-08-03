@@ -127,7 +127,7 @@ def insert_function(df, table, conn):
     cursor = conn.cursor()
     for index, row in df.iterrows():
         insert_query = f"""INSERT INTO {table} ("name", "IPO_Year", "idsymbol", "idcountry","idsector") 
-        VALUES ('{row['Name']}',{row['IPO_Year']},{row['idsymbol']},{row['idcountry']},{row['idsector']});
+        VALUES ('{row['Name'].replace("'","''")}',{row['IPO_Year']},{row['idsymbol']},{row['idcountry']},{row['idsector']});
         """
         cursor.execute(insert_query)
     
@@ -139,6 +139,9 @@ try:
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
     insert_function(combined_symbols,'tbTickers',conn_rsh)
+
+
+
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
