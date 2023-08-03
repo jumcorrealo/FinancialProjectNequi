@@ -138,6 +138,9 @@ try:
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
+    combined_symbols['idcountry'].fillna(1,inplace=True)
+    combined_symbols['idsector'].fillna(1,inplace=True)
+
     insert_function(combined_symbols,'tbTickers',conn_rsh)
 
 
