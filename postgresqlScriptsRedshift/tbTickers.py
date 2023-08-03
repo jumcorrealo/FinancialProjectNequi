@@ -44,9 +44,12 @@ try:
     create_table_query = '''
     CREATE TABLE IF NOT EXISTS tbTickers (
         "idTickers" INTEGER IDENTITY(1,1) PRIMARY KEY,
-        "idSymbol" INT FOREIGN KEY REFERENCES tbDimSymbol("idSymbol"),
-        "idCountry" INT FOREIGN KEY REFERENCES tbDimCountry("idCountry"),
-        "idSector" INT FOREIGN KEY REFERENCES tbDimSector("idsector")
+        "idSymbol" INT ,
+        "idCountry" INT ,
+        "idSector" INT ,
+        FOREIGN ("idSymbol") KEY REFERENCES tbDimSymbol("idSymbol"),
+        FOREIGN ("idCountry") KEY REFERENCES tbDimCountry("idCountry"),
+        FOREIGN ("idSector") KEY REFERENCES tbDimSector("idsector")
     );
     '''
 
