@@ -80,30 +80,30 @@ def get_unique_symbols(cur_rds, cur_rsh):
 
     # Obtener los Country únicos de tbdimcountry
     cur_rsh.execute("SELECT DISTINCT \"country\" FROM tbdimcountry;")
-    symbols_tbdimSymbols = cur_rsh.fetchall()
+    country_tbcountry = cur_rsh.fetchall()
     print("Symbols fetched from tbdimcountry successfully!")
 
     # Lista de comprensión para eliminar los símbolos existentes de Country_tbtickers
-    unique_symbols = list(set([symbol[0] for symbol in Country_tbtickers if symbol not in symbols_tbdimSymbols]))
+    unique_symbols = list(set([country[0] for country in Country_tbtickers if country not in country_tbcountry]))
 
     return unique_symbols
 
 
 try:
 
-    # Funcion para traer lista con symbol unica
+    # Funcion para traer lista con country unica
     Country_tbtickers = get_unique_symbols(cur_rds, cur_rsh)
 
     # Consulta de inserción
-    insert_query = "INSERT INTO tbdimcountry (Symbol) VALUES (%s)"
+    insert_query = "INSERT INTO tbdimcountry (Country) VALUES (%s)"
 
     with conn_rsh.cursor() as cur_rsh:
-        for symbol in Country_tbtickers:
+        for country in Country_tbtickers:
             try:
-                cur_rsh.execute(insert_query, (symbol,))
+                cur_rsh.execute(insert_query, (country,))
                 
             except psycopg2.Error as e:
-                print(f"Error occurred during insertion for symbol '{symbol[0]}':", e)
+                print(f"Error occurred during insertion for country '{country[0]}':", e)
                 logging.error(traceback.format_exc())
                 conn_rsh.rollback()  # Rollback the transaction in case of an error
 
