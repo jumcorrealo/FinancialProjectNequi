@@ -106,7 +106,7 @@ def get_unique_symbols(cur_rds, cur_rsh):
 def insert_function(df, table, conn):
     cursor = conn.cursor()
     for index, row in df.iterrows():
-        insert_query = f"""INSERT INTO {table} (\"idsymbol\", \"name\", \"type\") 
+        insert_query = f"""INSERT INTO {table} ("idsymbol", "name", "type") 
         VALUES ('{row['idsymbol']}',{row['Name']},{row['Type']});
         """
         cursor.execute(insert_query)
@@ -135,6 +135,7 @@ try:
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
     # Aplicar la función a la columna 'Name' para obtener la nueva columna 'Grouped Name'
     combined_symbols['Name'] = combined_symbols['Name'].apply(group_names)
+
     insert_function(combined_symbols,'tbdimgidsdirectory',conn_rsh)
 
 
