@@ -121,8 +121,13 @@ try:
     # Funcion para traer lista con symbol unica
     combined_symbols = get_unique_symbols(cur_rds, cur_rsh)
 
-    insert_function(combined_symbols,'tbTradingHistoric',conn_rsh)
+    # Dividir el DataFrame en grupos de 10,000 registros
+    chunk_size = 10000
+    num_chunks = (len(combined_symbols) - 1) // chunk_size + 1
 
+    for i in range(num_chunks):
+        chunk = combined_symbols.iloc[i * chunk_size:(i + 1) * chunk_size]
+        insert_function(chunk, 'tbTradingHistoric', conn_rsh)
 
 except (socket.timeout, psycopg2.OperationalError) as e:
     if isinstance(e, socket.timeout):
