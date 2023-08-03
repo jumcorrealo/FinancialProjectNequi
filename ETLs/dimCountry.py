@@ -81,7 +81,7 @@ def get_unique_symbols(cur_rds, cur_rsh):
     # Obtener los Country únicos de tbdimcountry
     cur_rsh.execute("SELECT DISTINCT \"country\" FROM tbdimcountry;")
     symbols_tbdimSymbols = cur_rsh.fetchall()
-    print("Symbols fetched from tbDimSymbol successfully!")
+    print("Symbols fetched from tbdimcountry successfully!")
 
     # Lista de comprensión para eliminar los símbolos existentes de Country_tbtickers
     unique_symbols = list(set([symbol[0] for symbol in Country_tbtickers if symbol not in symbols_tbdimSymbols]))
@@ -95,7 +95,7 @@ try:
     Country_tbtickers = get_unique_symbols(cur_rds, cur_rsh)
 
     # Consulta de inserción
-    insert_query = "INSERT INTO tbDimSymbol (Symbol) VALUES (%s)"
+    insert_query = "INSERT INTO tbdimcountry (Symbol) VALUES (%s)"
 
     with conn_rsh.cursor() as cur_rsh:
         for symbol in Country_tbtickers:
