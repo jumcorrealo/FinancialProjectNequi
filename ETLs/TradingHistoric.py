@@ -75,7 +75,7 @@ except (socket.timeout, psycopg2.OperationalError) as e:
 def get_unique_symbols(cur_rds, cur_rsh):
     # Obtener los símbolos únicos de tbTradingHistoric
     with cur_rds:
-        cur_rds.execute("SELECT * FROM tbTradingHistoric LIMIT 100000;")
+        cur_rds.execute("SELECT * FROM tbTradingHistoric OFFSET 200000;")
         columns = [desc[0] for desc in cur_rds.description]
         data = cur_rds.fetchall()
         df_trading_historic = pd.DataFrame(data, columns=columns)
